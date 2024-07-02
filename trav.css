@@ -1,0 +1,108 @@
+*{
+    margin: 0px;
+}
+#logo{
+    height: 100px;
+    margin-left: 50px;
+}
+
+#icontxt{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgba(23, 91, 187, 0.682);
+}
+
+#destination{
+    margin-top: 5%;
+}
+
+#cardh1{
+    margin-bottom: 2%;
+}
+
+.about{
+    margin-top: 50px;
+}
+
+h1{
+    text-align: center;
+    margin-top: 10%;
+}
+  
+.para{
+    text-align: center;
+    font-size: 30px;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 90px;
+    width: 50%;
+}
+  
+.travelabout{
+    margin-left: 60%;
+    margin-top: 60px;
+    position: absolute;
+}
+
+.carousel{
+    color: azure;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: x-large;
+}
+
+.footer{
+    background-color: black;
+    width: 100%;
+    margin-top: 30%;
+    position: absolute;
+    height: 30%;
+}
+
+.contactus{
+    text-align: center;
+    margin-top: 1%;
+}
+
+.contactus i{
+    margin-top: 1%;
+}
+
+.subscribe{
+    margin-left: 25%;
+    margin-top: 2%;
+    width: 50%;
+}
+
+.testimonial{
+    margin-top: 8%;
+}
+
+.testimonial .people{
+    margin-left: 18%;
+}
+
+.textimg{
+    width: 170px !important;
+    height: 170px !important;
+    border-radius: 50% !important;
+}
+
+@media (max-width:660px){
+
+    /* body{
+        overflow-x: hidden;
+    } */
+
+    .travelabout{
+        margin-top: -70px;
+        margin-left: 0px;
+    }
+
+    .para{
+        margin-top: 300px;
+        margin-bottom: 1000px;
+    }
+
+    .footer{
+        margin-top: 1250px;
+    }
+}
